@@ -1,0 +1,41 @@
+PS C:\Users\Keito\git_challenge> git add hello_world.txt
+PS C:\Users\Keito\git_challenge> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello_world.txt
+
+PS C:\Users\Keito\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) facf5d6] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\Keito\git_challenge> git log
+commit facf5d67002adc9237a82b397add2c5cc51c31ab (HEAD -> main)
+Author: keito58-tk <keito1904@outlook.jp>
+Date:   Sun Feb 25 19:33:51 2024 +0900
+
+    hello_world.txtを追加
+PS C:\Users\Keito\git_challenge> git add hello_world.txt
+PS C:\Users\Keito\git_challenge> git commit -m "日本語訳を追記"
+[main 009d705] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+009d705 (HEAD -> main) 日本語訳を追記
+009d705 (HEAD -> main) 日本語訳を追記
+facf5d6 hello_world.txtを追加
+PS C:\Users\Keito\git_challenge> git remote add origin https://github.com/keito58-tk/git-basic-kadai.git
+PS C:\Users\Keito\git_challenge> git remote -v
+origin  https://github.com/keito58-tk/git-basic-kadai.git (fetch)
+origin  https://github.com/keito58-tk/git-basic-kadai.git (push)
+PS C:\Users\Keito\git_challenge> git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 540 bytes | 540.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/keito58-tk/git-basic-kadai.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
