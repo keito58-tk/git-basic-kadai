@@ -39,3 +39,6 @@ Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/keito58-tk/git-basic-kadai.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
+65af490 (HEAD -> main, origin/main) Add kadai_004 directory
+009d705 日本語訳を追記
+facf5d6 hello_world.txtを追加
